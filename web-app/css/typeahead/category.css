@@ -1,0 +1,28 @@
+.twitter-typeahead {
+  width: 100%;
+}
+
+.col-md-6 .typeaheadCategorySelect .tt-dropdown-menu {
+  width: 100%;
+}
+
+.jquerytablesorter .typeaheadCategorySelect .tt-dropdown-menu {
+  width: 200%;
+}
+
+.col-md-3 .typeaheadCategorySelect .tt-dropdown-menu {
+  width: 200%;
+}
+
+.typeaheadCategorySelect .tt-dropdown-menu {
+  width: 300%;
+}
+
+.tt-hint {
+  width: 100%;
+}
+
+.typeaheadCategorySelect .category-name {
+  font-size: 16px;
+  font-weight: bold;
+}

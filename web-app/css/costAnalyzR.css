@@ -1,0 +1,53 @@
+.spacer {
+    /*margin-left: 40px; /* define margin as you see fit */
+    margin-right: 40px;
+}
+
+table.jquerytablesorter thead tr .headerSortUp span:before {
+    content: "\e093";
+}
+table.jquerytablesorter thead tr .headerSortDown span:before {
+    content: "\e094";
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.modall-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  width: 900px; /* SET THE WIDTH OF THE MODAL */
+  margin: 50px 0 0 -150px;
+  /* CHANGE MARGINS TO ACCOMMODATE THE NEW WIDTH */
+}
+
+/*Webflow settings*/
+.no-hover:hover {
+    color: #428BCA;
+}
+
+.webflow-undone-item {
+	opacity: 0.35;
+}
+
+.webflow-current-item img {
+  opacity: 0.0;
+}
+
+.webflow-undone-item img {
+	opacity: 0.0;
+}
+
+.webflow-heading {
+	margin-top:0cm;
+}

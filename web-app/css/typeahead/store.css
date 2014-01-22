@@ -1,0 +1,33 @@
+.twitter-typeahead {
+  width: 100%;
+}
+
+.jquerytablesorter .typeaheadStoreSelect .tt-dropdown-menu {
+  width: 200%;
+}
+
+.col-md-5 .typeaheadStoreSelect .tt-dropdown-menu {
+  width: 100%;
+}
+
+.typeaheadStoreSelect .tt-dropdown-menu {
+  width: 100%;
+}
+
+.tt-hint {
+  width: 100%;
+}
+
+.typeaheadStoreSelect .store-concern {
+  float: right;
+  font-style: italic;
+}
+
+.typeaheadStoreSelect .store-streetNameAndNumber {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.typeaheadStoreSelect .store-cityZipCodeCountry {
+  font-size: 14px;
+}

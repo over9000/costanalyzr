@@ -57,7 +57,7 @@
             <div class="btn-group">
               <g:submitButton name="cancel" class="btn btn-info" value="Abbrechen" formnovalidate="" />
               <g:submitButton name="back" class="btn btn-info" value="Zurück" formnovalidate="" />
-              <g:submitButton name="next" class="btn btn-info" value="Weiter" />
+              <g:submitButton name="next" class="btn btn-info" value="Weiter" formnovalidate="" />
             </div>
           </div>
         </div>

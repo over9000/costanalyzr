@@ -38,7 +38,7 @@
               <g:set var="choosenStoreText" value="${flow?.choosenStore?.toString()}" />
             </g:else>
             <g:hiddenField id="buildInvoiceFlowStoreId" name="buildInvoiceFlowStoreId" value="${choosenStoreValue}"/>
-            <g:typeaheadStoreSelect id="buildInvoiceFlowStoreIdSelect" concern="${flow?.choosenConcern?.getId()}"  noSelectionAvailable="" name="buildInvoiceFlowStoreIdSelect" value="${choosenStoreText}" class="form-control buildInvoiceFlowAddFormFieldsetDisabler" placeholder="Bitte Filiale auswählen (durch tippen)" required="" />
+            <g:typeaheadStoreSelect id="buildInvoiceFlowStoreIdSelect" concernId="${flow?.choosenConcern?.getId()}"  noSelectionAvailable="" name="buildInvoiceFlowStoreIdSelect" value="${choosenStoreText}" class="form-control buildInvoiceFlowAddFormFieldsetDisabler" placeholder="Bitte Filiale auswählen (durch tippen)" required="" />
             <g:javascript>
               $(function() {
                 $("#buildInvoiceFlowStoreIdSelect").on("typeahead:selected typeahead:autocompleted", function(e,datum) {

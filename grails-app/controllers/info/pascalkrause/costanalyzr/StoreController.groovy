@@ -170,7 +170,7 @@ class StoreController {
 	def getStoreListAsJSON() {
 		def keywords = ((String) params.get("keywords"))?.split(" ")
 		def noSelectionAvailable = params.get("noSelectionAvailable")
-		def concern = params.get("concernId")
+		def concernId = params.get("concernId")
 		String responseString = "[";
 		if(noSelectionAvailable != null) {
 			responseString = responseString +
@@ -186,11 +186,12 @@ class StoreController {
 			/
 		}
 		def stores = Store.list();
-		if(concern ==~ /\d+/) {
-			def passedConcern = Concern.get(Integer.parseInt(concern))
+		if(concernId ==~ /\d+/) {
+			def passedConcern = Concern.get(Integer.parseInt(concernId))
+			println passedConcern
 			def storeCriteria = Store.createCriteria();
 			stores = storeCriteria.list {
-								 eq("concernId", passedConcern)
+								 eq("concern", passedConcern)
 							}
 		}
 		stores.each {

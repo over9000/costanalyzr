@@ -30,7 +30,7 @@
       </div>
       <div class="row">
         <div class="col-md-2"><h4>Homepage:</h4></div>
-        <div class="col-md-6"><h4><small>costanalyzr.github.com</small></h4></div>
+        <div class="col-md-6"><h4><small><a href="http://over9000.github.io/costanalyzr/" target="_blank">http://over9000.github.io/costanalyzr/</a></small></h4></div>
       </div>
       <div class="row">
         <div class="col-md-2"><h4>Lizenz</h4></div>
@@ -53,7 +53,7 @@
 		      See the License for the specific language governing permissions and
 		      limitations under the License.<br>
 		      <br>
-		      http://costanalyzr.github.com
+		      <a href="http://over9000.github.io/costanalyzr/" target="_blank">http://over9000.github.io/costanalyzr/</a>
         </div>
       </div>
 		</div>

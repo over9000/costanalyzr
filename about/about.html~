@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CostAnalyzR Homepage - Impressum</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<!-- NAVBAR ================================================== -->
+<body>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<div id="navbar" class="navbar-wrapper">
+		<div style="width: 600px" class="container">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="../index.html">CostAnalyzR</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="../home/home.html">Home</a></li>
+							<li><a href="../news/news.html">News</a></li>
+							<li><a href="../download/download.html">Download</a></li>
+							<li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a
+								href="https://github.com/over9000/costanalyzr/tree/master"
+								target="_blank">GitHub Repo</a></li>
+							<li><a
+								href="https://github.com/over9000/costanalyzr/archive/master.zip">Download
+									Source</a></li>
+							<li><a href="../license/license.html">Lizenz</a></li>
+							<li class="active"><a href="about.html">Impressum</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ende Navbar -->
+
+	<div class="container">
+		<div style="height: 30px"></div>
+		<div class="page-header">
+			<h2>Impressum</h2>
+		</div>
+		<div class="well">
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Verantwortlich für den Inhalt</h4>
+					dieser Website, soweit nicht gesondert angegeben, ist:<br> P.
+					Krause<br> Seegasse 14<br> 69207 Sandhausen<br>
+					Deutschland<br> (Adresse für Briefe. Paketadresse auf
+					Anfrage.)<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div style="height: 10px"></div>
+					<h4>Kontakt per E-Mail</h4>
+					Als Möglichkeit zur schnellen elektronischen Kontaktaufnahme ist
+					E-Mail vorgesehen.<br> Die Adresse dafür lautet:
+					info@costanalyzr.de<br> Da heutzutage über E-Mail leider viel
+					Werbung versendet wird, filtern wir eingehende E-Mails nach
+					Stichworten. Bitte fügen Sie daher, um Ihre E-Mail als erwünscht zu
+					kennzeichnen, vor den eigentlichen Betreff das Wort “COSTANALYZR”
+					(zusammengeschrieben) ein.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div style="height: 10px"></div>
+					<h4>Jugendschutzbeauftragter:</h4>
+					P. Krause (Kontaktinformationen s.o.)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h3>
+						Nutzungsbedingungen
+						<h3>
+							<h4>Definition der Anbieter, Hinweise zum Inhalt</h4>
+							Die im Impressum als für den Inhalt verantwortlich benannte(n)
+							Person(en), nachfolgend “Anbieter” genannt, bemühen sich stets,
+							die Inhalte der Webseite vollständig, aktuell und inhaltlich
+							richtig zu halten, können dies jedoch nicht garantieren. Alle
+							Inhalte werden daher ohne jegliche Garantien oder
+							Gewährleistungen angeboten.<br> Außer im Falle des Vorsatzes
+							oder grober Fahrlässigkeit schließen die Anbieter jede Haftung
+							für direkte oder indirekte Schäden aus, die durch die Nutzung
+							dieser Webseite oder derer Inhalte entstanden sein sollten.<br>
+							Die Anbieter behalten sich vor, die Webseite und/oder Teile derer
+							ohne Ankündigung zu verändern, zu erweitern, zu entfernen oder
+							nicht länger zu veröffentlichen, jeweils zeitweilig oder
+							dauerhaft. Alle Angebote sind daher als freibleibend und
+							unverbindlich anzusehen.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Distanzierung von externen Links</h4>
+					Auf dieser Website können sich Verweise (sog. “Hyperlinks”) auf
+					fremde Websites befinden, auf welche die Anbieter dieser Website
+					keinen Einfluss haben. Die Anbieter versichern, zur Zeit der
+					Verweiserstellung auf diesen Websites keine rechtswidrigen Inhalte
+					erkannt zu haben. Da sie dies jedoch nicht für die Zukunft
+					versichern können, distanzieren sich die Betreiber ausdrücklich von
+					diesen externen Webseiten.<br> Sofern nicht anders vermerkt,
+					wollen die Anbieter mit dem Verweis lediglich auf die Existenz der
+					externen Website hinweisen, sie aber nicht bewerten (auch nicht
+					empfehlen) und sich deren Inhalte nicht zu eigen machen.<br>
+					Für Schäden und Rechtsverstöße, die durch die Nutzung oder
+					Nichtnutzung externer Webseiten oder mit Hilfe derer entstehen,
+					haften allein deren Betreiber, also nicht die Anbieter dieser
+					Webseite, die auf die fremden Veröffentlichungen nur verweist.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Distanzierung von benutzererzeugten Inhalten (User
+						Generated Content)</h4>
+					An einigen Stellen dieser Website können fremde Dritte eigene
+					Inhalte veröffentlichen, ohne dass die Anbieter dies zeitnah
+					bemerken oder gar verhindern könnten. Für solche Inhalte sind daher
+					nur die jeweiligen Autoren verantwortlich, nicht die Anbieter.
+					Insbesondere stellen die gegebenenfalls darin geäußerten Ansichten
+					und Meinungen nur die Ansichten und Meinungen des jeweiligen Autors
+					dar und können von denen der Anbieter abweichen.<br> Die
+					Anbieter helfen Ihnen jedoch gerne, soweit im Nachhinein möglich,
+					Kontakt zu den Autoren herzustellen und/oder die beanstandeten
+					Inhalte zu korrigieren oder zu entfernen. Für von Benutzern
+					erzeugte Verweise auf andere Websites gilt der Abschnitt
+					“Distanzierung von externen Links” sinngemäß.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Datenschutz</h4>
+					Die Anbieter werden keinen Benutzer zwingen, irgendwelche
+					persönlichen Daten preiszugeben, und hoffen, dass auch niemand
+					anderes dies tut. Sie behalten sich jedoch vor, bestimmte
+					Dienstleistungen und/oder Teile solcher nur Benutzern anzubieten,
+					die bestimmte persönliche Daten freiwillig und wahrheitsgemäß
+					preisgeben. Zweifel daran, dass diese persönlichen Daten freiwillig
+					und wahrheitsgemäß angegeben wurden, sind also ein möglicher Grund
+					für den Abbruch und/oder Widerruf solcher Dienstleistungen.<br>
+					Jegliche über die Benutzer veröffentlichten Informationen dürfen
+					nicht benutzt werden, um diesen Produktinformationen zuzustellen,
+					sofern die Benutzer dem nicht ausdrücklich zugestimmt haben. Die
+					Anbieter selbst zählen nicht als “Benutzer” im Sinne des vorigen
+					Satzes, stimmen der Zustellung von Produktinformationen aber
+					dennoch nicht gesondert zu.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Gültigkeit bei Teilnichtigkeit</h4>
+					Teile oder Formulierungen dieses Haftungsausschlusses, die sich als
+					unwirksam oder ungültig herausstellen, beschränken nicht die
+					Wirksamkeit des restlichen Haftungsausschlusses. §139 BGB
+					(Folgerung der Gesamtnichtigkeit aus der Teilnichtigkeit) findet
+					also keine Anwendung.<br> Die unwirksamen oder ungültig
+					Bestimmungen sollen durch solche ersetzt werden, die ihnen in
+					Zielsetzung und Wirksamkeit möglichst nahe kommen. Dies gilt
+					entsprechend auch für den Fall, dass sich der Haftungsausschluss
+					als lückenhaft erweist.
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER -->
+		<div>
+			<p class="pull-right">
+				<a href="#navbar">Zum Seitenanfang</a>
+			</p>
+			<p>&copy; 2014 Pascal Krause</p>
+		</div>
+	</div>
+</body>
+</html>

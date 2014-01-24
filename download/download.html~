@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CostAnalyzR Homepage - Download</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<!-- NAVBAR ================================================== -->
+  <body>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <div id="navbar" class="navbar-wrapper">
+      <div style="width:600px" class="container">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="../index.html">CostAnalyzR</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="../home/home.html">Home</a></li>
+    <li><a href="../news/news.html">News</a></li>
+    <li class="active"><a href="download.html">Download</a></li>
+    <li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+              </ul>
+        <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://github.com/over9000/costanalyzr/tree/master" target="_blank">GitHub Repo</a></li>
+         <li><a href="https://github.com/over9000/costanalyzr/archive/master.zip">Download Source</a></li>
+         <li><a href="../license/license.html">Lizenz</a></li>
+         <li><a href="../about/about.html">Impressum</a></li>
+        </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Ende Navbar -->
+  <div class="container">
+    <div style="height:30px"></div>
+    <div class="page-header">
+      <h2>Download</h2>
+    </div>
+    <div class="well">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Wichtige Hinweise</h2>
+            Im Moment gibt es noch keine vorkompilierte Version zum Download. Diese wird es voraussichtlich im Verlauf der der nächsten Woche geben.
+          <h2>Installationsanleitung</h2>
+          Die Installationsanleitung wird es mit dem Veröffentlichen des Downloads geben.
+          <h2>Download</h2>
+          Hier wird es eine Liste mit verschiedenen Versionen des CostAnalyzRs geben.
+        </div>
+      </div>
+          </div>
+      <!-- FOOTER -->
+      <div>
+        <p class="pull-right"><a href="#navbar">Zum Seitenanfang</a></p>
+        <p>&copy; 2014 Pascal Krause</p>
+      </div>
+  </div>
+  </body>
+</html>

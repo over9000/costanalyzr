@@ -54,59 +54,42 @@
 		</div>
 		<div class="well">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<h2>Was ist der CostAnalyzR?</h2>
 					Der CostAnalyzR wurde mit dem Ziel entwickelt, eine Übersicht über
 					alle Ausgaben zu erhalten. Folgende Fragestellungen und alle
 					Kombinationen dieser sollen durch den CostAnalyzR beantwortet
 					werden:<br> <br>
-					<ul>
-						<li>Wie viel Geld wurde ausgegeben <span
-							class="glyphicon glyphicon-ok"></span></li>
-						<li>Für was wurde wie viel Geld ausgegeben <span
-							class="glyphicon glyphicon-ok"></span></li>
-						<li>In welchem Zeitraum wurde wie viel Geld für etwas
-							ausgegeben <span class="glyphicon glyphicon-ok"></span>
-						</li>
-						<li>Wo wurde wie viel Geld ausgegeben <span
-							class="glyphicon glyphicon-wrench"></span></li>
-						<li>Wo ist ein Artikel am günstigsten <span
-							class="glyphicon glyphicon-wrench"></span></li>
-						<li>Wie war die bisherige Preisentwicklung eines Artikels <span
-							class="glyphicon glyphicon-wrench"></span></li>
+					<ul style="list-style-type:none">
+						<li><span class="glyphicon glyphicon-ok"></span> Wie viel Geld wurde ausgegeben?</li>
+						<li><span class="glyphicon glyphicon-ok"></span> Für was wurde wie viel Geld ausgegeben?</li>
+						<li><span class="glyphicon glyphicon-ok"></span> In welchem Zeitraum wurde wie viel Geld für etwas ausgegeben?</li>
+						<li><span class="glyphicon glyphicon-wrench"></span> Wo wurde wie viel Geld ausgegeben?</li>
+						<li><span class="glyphicon glyphicon-wrench"></span> Wo ist ein Artikel am günstigsten?</li>
+						<li><span class="glyphicon glyphicon-wrench"></span> Wie war die bisherige Preisentwicklung eines Artikels?</li>
 					</ul>
 					<h2>Was kann der CostAnalyzR?</h2>
 					Neben der Beantwortung der oben aufgeführten Fragestellungen,
 					beinhaltet der CostAnalyzR unter anderem folgenden Features:<br>
 					<br>
-					<ul>
-						<li>Datensicherheit: Alle Daten werden in einer Datenbank auf
-							dem eignen Computer abgespeichert. <span
-							class="glyphicon glyphicon-ok"></span>
-						</li>
-						<li>Netzwerkzugriff: Der CostAnalyzR kann bei Bedarf durch
-							Portweiterleitung im Netzwerk und auch Internet verfügbar gemacht
-							werden <span class="glyphicon glyphicon-ok"></span>
-						</li>
-						<li>Smartphone: Mit einer App kann die Preishistorie eines
-							Artikels in Erfahrung gebracht werden, und in Relation zu dem
-							Preis in anderen Läden setzen <span
-							class="glyphicon glyphicon-wrench"></span>
-						</li>
+					<ul style="list-style-type:none">
+						<li><span class="glyphicon glyphicon-ok"></span> Datensicherheit: Alle Daten werden in einer
+						Datenbank auf dem eignen Computer abgespeichert.</li>
+						<li><span class="glyphicon glyphicon-ok"></span> Netzwerkzugriff: Der CostAnalyzR kann bei Bedarf
+						durch Portweiterleitung im Netzwerk und auch Internet verfügbar gemacht werden.</li>
+						<li> <span class="glyphicon glyphicon-wrench"></span> Smartphone: Mit einer App kann die
+						Preishistorie eines Artikels in Erfahrung gebracht werden, und in Relation zum Preis in anderen Läden setzen</li>
 					</ul>
 
 
 					<h2>Wie geht es mit dem CostAnalyzR weiter?</h2>
-					Der CostAnalyzR steht noch ganz am Anfang seiner Entwicklug.
+					Der CostAnalyzR steht noch ganz am Anfang seiner Entwicklung.
 					Folgende Features sind bereits geplant:<br> <br>
-					<ul>
-						<li>Barcode-Scanner für Artikelerkennung <span
-							class="glyphicon glyphicon-wrench"></span></li>
-						<li>Scanner für Einkaufszettel <span
-							class="glyphicon glyphicon-wrench"></span></li>
+					<ul style="list-style-type:none">
+						<li><span class="glyphicon glyphicon-wrench"></span> Barcode-Scanner für Artikelerkennung</li>
+						<li><span class="glyphicon glyphicon-wrench"></span> Scanner für Einkaufszettel</li>
 					</ul>
-					Sie habe eine Idee für ein Feature? Hier können Sie diese
-					vorschlagen.
+					Sie habe eine Idee für ein Feature? <a href="https://github.com/over9000/costanalyzr/pulls" target="_blank">Hier können Sie diese vorschlagen.
 				</div>
 				<p class="pull-right">
 					<span class="glyphicon glyphicon-wrench"></span> : In Arbeit

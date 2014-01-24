@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<!-- Ende Navbar -->
-	<div class="container">
+	<div style="min-height:800px" class="container">
 		<div style="height: 30px"></div>
 		<div class="page-header">
 			<h2>Home</h2>
@@ -78,7 +78,7 @@
 						<li><span class="glyphicon glyphicon-ok"></span> Netzwerkzugriff: Der CostAnalyzR kann bei Bedarf
 						durch Portweiterleitung im Netzwerk und auch Internet verfügbar gemacht werden.</li>
 						<li> <span class="glyphicon glyphicon-wrench"></span> Smartphone: Mit einer App kann die
-						Preishistorie eines Artikels in Erfahrung gebracht werden, und in Relation zum Preis in anderen Läden setzen</li>
+						Preishistorie eines Artikels in Erfahrung gebracht werden, und in Relation zum Preis in anderen Läden setzen.</li>
 					</ul>
 
 
@@ -100,13 +100,15 @@
 				</p>
 			</div>
 		</div>
-		<!-- FOOTER -->
-		<div>
+  	<div class="container">
+			<!-- FOOTER -->
+		<footer>
 			<p class="pull-right">
 				<a href="#navbar">Zum Seitenanfang</a>
 			</p>
 			<p>&copy; 2014 Pascal Krause</p>
-		</div>
+		</footer>
+	</div>
 	</div>
 </body>
 </html>

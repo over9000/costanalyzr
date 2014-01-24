@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<!-- Ende Navbar -->
-	<div class="container">
+	<div style="min-height:800px" class="container">
 		<div style="height: 30px"></div>
 		<div class="page-header">
 			<h2>Tutorial</h2>
@@ -55,16 +55,18 @@
 		<div class="well">
 			<div class="row">
 				<div class="col-md-8">
-					<h2>Leider sind noch keine Tutorials verfügbar :(</h2>
+					<h2>Leider sind noch keine Tutorials verfügbar.</h2>
 				</div>
 			</div>
 		</div>
-		<!-- FOOTER -->
-		<div>
+	</div>
+	  	<div class="container">
+			<!-- FOOTER -->
+		<footer>
 			<p class="pull-right">
 				<a href="#navbar">Zum Seitenanfang</a>
 			</p>
 			<p>&copy; 2014 Pascal Krause</p>
-		</div>
+		</footer>
 	</div>
 </body>

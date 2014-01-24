@@ -108,7 +108,7 @@
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a> <a class="right carousel-control" href="#carousel" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right"></span>
-		</a> <span id="securityLicense" style="float: right">Image copyright
+		</a> <span id="securityLicense" style="float: right">Image credit by:
 			by: <a href="http://www.stockmonkeys.com/" target="_blank">StockMonkeys.com</a>
 			<a href="http://creativecommons.org/licenses/by/2.0/" target="_blank"> (CC-BY)</a>
 			and <a href="http://www.flickr.com/photos/80194969@N02/7186883425/" target="_blank">EyeonEarth</a>
@@ -135,7 +135,7 @@
     ================================================== -->
 	<!-- Wrap the rest of the page in another container to center all the content. -->
 
-	<div class="container marketing">
+	<div style="min-height:800px" class="container marketing">
 
 		<!-- Three columns of text below the carousel -->
 		<div class="row">
@@ -206,11 +206,10 @@
 		<div class="row featurette">
 			<div class="col-md-7">
 				<h2 class="featurette-heading">
-					AnalyseWizard <span class="text-muted">Auswertungen im
-						Handumdrehen</span>
+					AnalyseWizard: <span class="text-muted">Auswertungen im Handumdrehen</span>
 				</h2>
 				<p class="lead">Mit dem AnalyseWizard können die in die
-					Datenbank eingepflegten Daten Kinderleicht ausgewertet werden.
+					Datenbank eingepflegten Daten im Handumdrehen ausgewertet werden.
 					Momentan ist es möglich alle Ausgaben, nach Kategorien
 					aufgeschlüsselt, innerhalb eines bestimmten Zeitraums anzeigen zu
 					lassen. Die so erstellte Auswertung kann sowohl als PieChart als
@@ -232,7 +231,7 @@
 			</div>
 			<div class="col-md-7">
 				<h2 class="featurette-heading">
-					AusgabenWizard <span class="text-muted">Effiziente
+					AusgabenWizard: <span class="text-muted">Effiziente
 						Datenerfassung</span>
 				</h2>
 				<p class="lead">Mit dem AusgabenWizard können auch größere
@@ -257,12 +256,12 @@
 				</h2>
 				<p class="lead">Da das im CostAnalyzR gespeicherte Kaufverhalten
 					Rückschlüsse auf die private Lebensführung oder Firmen-Interna
-					zulässt, deshalb werden alle Daten ausschließlich lokal gespeichert.
-					Somit kann jeder selbst entscheiden wie sehr er diese
-					Daten absichern möchte. Doch auch unterwegs muss auf den
-					CostAnalyzR keineswegs verzichtet werden. Bei Bedarf kann die
-					Weboberfläche einfach über Internet oder andere Netze zur Verfügung
-					gestellt werden.</p>
+					zulässt, werden alle Daten ausschließlich lokal gespeichert.
+					Somit kann jeder für sich selbst entscheiden wie stark diese
+					Daten abgesichert sein sollen. Doch auch unterwegs muss auf den
+					CostAnalyzR keineswegs verzichtet werden, da bei Bedarf die
+					Weboberfläche einfach über das Internet oder andere Netze zur Verfügung
+					gestellt werden kann.</p>
 			</div>
 			<div class="col-md-5">
 				<img class="featurette-image img-responsive"

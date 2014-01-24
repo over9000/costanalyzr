@@ -43,7 +43,7 @@
       </div>
     </div>
 <!-- Ende Navbar -->
-  <div class="container">
+  <div style="min-height:800px"class="container">
     <div style="height:30px"></div>
     <div class="page-header">
       <h2>Download</h2>
@@ -54,17 +54,21 @@
           <h2>Wichtige Hinweise</h2>
             Im Moment gibt es noch keine vorkompilierte Version zum Download. Diese wird es voraussichtlich im Verlauf der der nächsten Woche geben.
           <h2>Installationsanleitung</h2>
-          Die Installationsanleitung wird es mit dem Veröffentlichen des Downloads geben.
+          Die Installationsanleitung wird es mit der Veröffentlichung des Downloads geben.
           <h2>Download</h2>
           Hier wird es eine Liste mit verschiedenen Versionen des CostAnalyzRs geben.
         </div>
       </div>
-          </div>
-      <!-- FOOTER -->
-      <div>
-        <p class="pull-right"><a href="#navbar">Zum Seitenanfang</a></p>
-        <p>&copy; 2014 Pascal Krause</p>
-      </div>
   </div>
+  </div>
+  	<div class="container">
+			<!-- FOOTER -->
+		<footer>
+			<p class="pull-right">
+				<a href="#navbar">Zum Seitenanfang</a>
+			</p>
+			<p>&copy; 2014 Pascal Krause</p>
+		</footer>
+	</div>
   </body>
 </html>

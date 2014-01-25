@@ -1,5 +1,6 @@
 User-Agent: *
 Disallow: /about/about.html
+Disallow: /license/license.html
 
 User-Agent: Fasterfox 
 Disallow: /

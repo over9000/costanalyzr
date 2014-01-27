@@ -28,7 +28,6 @@ class ArticleController {
 		// Hole Parameter
 		String articleName = params.get("articleName")
 		Category articleCategory = null
-		println params.get("articleCategoryId")
 		if(!params.get("articleCategoryId").equals("null")) {
 			articleCategory = Category.get(Integer.parseInt(params.get("articleCategoryId")))
 		}

@@ -23,7 +23,7 @@ class TypeaheadArticleSelectTagLib {
 		""" <input type="text"  """ << Utils.addPassedTagAttributes(attrs) << "/>" <<
 		""" <script>\$(document).ready(function() { 
 				\$( "#${id}" ).typeahead([ {
-					remote : '/CostAnalyzR/article/getArticleListAsJSON?keywords=%QUERY',
+					remote : '${Utils.getContextPath()}/article/getArticleListAsJSON?keywords=%QUERY',
 					template: [
 		  				'<p class="article-name">{{name}}</p>',
 		  				'<p class="article-category">Kategorie: {{category}}</p>',

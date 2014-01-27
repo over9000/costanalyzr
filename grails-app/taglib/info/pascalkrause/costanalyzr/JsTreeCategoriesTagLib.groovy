@@ -27,7 +27,7 @@ class JsTreeCategoriesTagLib {
 				<script>
                  \$(function () {
     	           \$.ajax({
-    		          url: "/${Utils.getProjectName()}/analyze/getCategories",
+    		          url: "${Utils.getContextPath()}/analyze/getCategories",
     		          type: 'get',
 	  	              dataType: 'json',
 	   	              success: buildJsTree,

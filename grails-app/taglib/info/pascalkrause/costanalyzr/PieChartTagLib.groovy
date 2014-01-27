@@ -71,7 +71,7 @@ class PieChartTagLib {
 			timePeriodValue = "${sdfyyyyMMdd.format(fromDate.getTime())} - ${sdfyyyyMMdd.format(toDate.getTime())}"
 		}
 		
-		String requestString = """/${Utils.getProjectName()}/analyze/getChartData?""" +
+		String requestString = """${Utils.getContextPath()}/analyze/getChartData?""" +
 		"""fromDate=${sdfyyyyMMdd.format(fromDate.getTime())}""" +
 		"""&toDate=${sdfyyyyMMdd.format(toDate.getTime())}""" +
 		"""&timePeriodType=${timePeriodType}""" +

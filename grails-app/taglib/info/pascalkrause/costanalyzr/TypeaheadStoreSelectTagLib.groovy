@@ -39,7 +39,7 @@ class TypeaheadStoreSelectTagLib {
 		""" <input type="text"  """ << Utils.addPassedTagAttributes(attrs) << "/>" <<
 		""" <script>\$(document).ready(function() { 
 				\$( "#${id}" ).typeahead([ {
-					remote : '/CostAnalyzR/store/getStoreListAsJSON?keywords=%QUERY${noSelectionAvailable ? "&noSelectionAvailable=true" : ""}${concernId ? "&concernId=${attrs.concernId}" : ""}',
+					remote : '${Utils.getContextPath()}/store/getStoreListAsJSON?keywords=%QUERY${noSelectionAvailable ? "&noSelectionAvailable=true" : ""}${concernId ? "&concernId=${attrs.concernId}" : ""}',
 					template: [
 						'<p class="store-concern">{{concern}}</p>',
 						'<p class="store-streetNameAndNumber">{{streetNameAndNumber}}</p>',

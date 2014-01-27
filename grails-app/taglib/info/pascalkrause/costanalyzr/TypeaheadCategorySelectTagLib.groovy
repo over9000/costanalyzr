@@ -30,7 +30,7 @@ class TypeaheadCategorySelectTagLib {
 		""" <input type="text"  """ << Utils.addPassedTagAttributes(attrs) << "/>" <<
 		""" <script>\$(document).ready(function() { 
 				\$( "#${id}" ).typeahead([ {
-					remote : '/CostAnalyzR/category/getCategoryListAsJSON?keywords=%QUERY${noSelectionAvailable ? "&noSelectionAvailable=true" : ""}',
+					remote : '${Utils.getContextPath()}/category/getCategoryListAsJSON?keywords=%QUERY${noSelectionAvailable ? "&noSelectionAvailable=true" : ""}',
 					template: [
 		 				'<p class="category-name">{{name}}</p>',
 					].join(''), 

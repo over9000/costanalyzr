@@ -10,7 +10,7 @@ import java.text.DecimalFormat
  *
  */
 public class Utils {
-
+	
 	static private SecureRandom random = new SecureRandom();
 	
 	static String cutAtLastComma(String string) {
@@ -30,10 +30,8 @@ public class Utils {
 		return new BigInteger(130, random).toString(32);
 	}
 	
-	static String getProjectName() {
-		String projectName
-		projectName = "CostAnalyzR"
-		return projectName
+	static String getContextPath() {
+		return ContextUtil.getApplicationContext().getBean("grailsLinkGenerator").getContextPath()
 	}
 	
 	/**

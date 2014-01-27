@@ -15,7 +15,8 @@ modules = {
 	
 	nv_d3_v115 {
 		resource url: "/js/nvd3/v1.15/d3.v3.min.js"
-		resource url: "/js/nvd3/v1.15/nv.d3.min.js"
+		//Hier nicht die min Version, da in Zeile 14134 Euro eingefügt wurde. (nv.d3.js Zeile: 14134 für mehr Infos)
+		resource url: "/js/nvd3/v1.15/nv.d3.js"
 	}
 	
 	typeahead {

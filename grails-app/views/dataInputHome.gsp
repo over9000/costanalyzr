@@ -25,11 +25,11 @@
     <div class="well">
       <div class="row">
         <div class="col-md-3"><h4>Älteste Rechnung</h4></div>
-        <div class="col-md-6"><h4><small><g:formatDate format="yyyy-MM-dd" date="${Invoice.getOldestInvoiceCreationDate().getTime()}"/></small></h4></div>
+        <div class="col-md-6"><h4><small><g:formatDate format="yyyy-MM-dd" date="${Invoice.getOldestInvoiceCreationDate()?.getTime()}"/></small></h4></div>
       </div>
       <div class="row">
         <div class="col-md-3"><h4>Neuste Rechnung</h4></div>
-        <div class="col-md-6"><h4><small><g:formatDate format="yyyy-MM-dd" date="${Invoice.getLatestInvoiceCreationDate().getTime()}"/></small></h4></div>
+        <div class="col-md-6"><h4><small><g:formatDate format="yyyy-MM-dd" date="${Invoice.getLatestInvoiceCreationDate()?.getTime()}"/></small></h4></div>
       </div>
       <div class="row">
         <div class="col-md-3"><h4>Gesamtanzahl Rechnungen:</h4></div>

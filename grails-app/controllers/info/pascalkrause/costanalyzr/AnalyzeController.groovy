@@ -306,6 +306,10 @@ class AnalyzeController {
 		Map<Long, Map<Category,Double>> calculatedCosts = new HashMap<Long, Map<Category,Double>>()
 		GregorianCalendar tempDate = fromDate.clone();
 		if(showAllChildren) {
+			if(!(categories.size() > 0)) {
+				// Shows "No Data availalble" in the chart
+				return "[]"
+			}
 			Category passedParentCategory = categories.get(0)
 			List<Category> categoryChildren = passedParentCategory.childCategorys.toList()
 			while(tempDate.compareTo(toDate) <= 0) {
@@ -416,6 +420,10 @@ class AnalyzeController {
 	private String getPieChartDataAsJSON(List<Category> categories, List<Invoice> invoices, boolean showAllChildren) {
 		Map<Category, Double> tempCosts = new HashMap<Category, Double>()
 		if(showAllChildren) {
+			if(!(categories.size() > 0)) {
+				// Shows "No Data availalble" in the chart
+				return "[]"
+			}
 			Category passedParentCategory = categories.get(0)
 			def categoryChildren = passedParentCategory.childCategorys.toList()
 			invoices.each {

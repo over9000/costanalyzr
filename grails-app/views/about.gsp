@@ -3,13 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="layout" content="costanalyzr" />
-<title>Impressum</title>
+<title>About CostAnalyzR</title>
 </head>
 <body>
 <g:render template="/template/mainNavBar" model="[active: 'about']"/>
 	<div class="container">
 		<div class="page-header">
-			<h2>Impressum</h2>
+			<h2>About CostAnalyzR</h2>
 		</div>
 		<div class="well">
 		  <div class="row">
@@ -30,7 +30,7 @@
       </div>
       <div class="row">
         <div class="col-md-2"><h4>Homepage:</h4></div>
-        <div class="col-md-6"><h4><small><a href="http://over9000.github.io/costanalyzr/" target="_blank">http://over9000.github.io/costanalyzr/</a></small></h4></div>
+        <div class="col-md-6"><h4><small><a href="http://over9000.github.io/costanalyzr/" target="_blank">www.costanalyzr.de</a></small></h4></div>
       </div>
       <div class="row">
         <div class="col-md-2"><h4>Lizenz</h4></div>
@@ -38,9 +38,16 @@
       </div>
       <div style="height:15px"></div>
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6">
 	        Copyright (c) 2014 Pascal Krause<br>
+	        <a href="http://over9000.github.io/costanalyzr/" target="_blank">www.costanalyzr.de</a><br>
 		      <br>
+		      Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:<br>
+          <br>
+          * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br>
+          <br>
+          * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.<br>
+          <br>
 		      Licensed under the Apache License, Version 2.0 (the "License");<br>
 		      you may not use this file except in compliance with the License.<br>
 		      You may obtain a copy of the License at<br>
@@ -74,10 +81,10 @@
       copies of the Software, and to permit persons to whom the
       Software is furnished to do so, subject to the following
       conditions:<br>
-      <br>
+			<br>
       The above copyright notice and this permission notice shall be
       included in all copies or substantial portions of the Software.<br>
-      <br>
+			<br>
       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
       EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
       OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND

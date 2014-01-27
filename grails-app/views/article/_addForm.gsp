@@ -14,7 +14,7 @@
         <g:javascript>
           $(function() {
             $("#articleCategorySelect").on("typeahead:selected typeahead:autocompleted", function(e,datum) {
-              $("#articleCategoryId").val(datum.id).change();
+              $("#articleCategoryId").val(datum.id);
             })  
           })
         </g:javascript>

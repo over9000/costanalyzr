@@ -6,7 +6,7 @@ modules = {
 	}
 	
 	jquery_ui {
-		resource url: "/js/jquery-ui/jquery-ui-1.10.3.js"
+		resource url: "/js/jquery-ui/jquery-ui-1.10.3.min.js"
 	}
 	
 	jquery_table_sorter {
@@ -14,8 +14,8 @@ modules = {
 	}
 	
 	nv_d3_v115 {
-		resource url: "/js/nvd3/v1.15/d3.v3.js"
-		resource url: "/js/nvd3/v1.15/nv.d3.js"
+		resource url: "/js/nvd3/v1.15/d3.v3.min.js"
+		resource url: "/js/nvd3/v1.15/nv.d3.min.js"
 	}
 	
 	typeahead {

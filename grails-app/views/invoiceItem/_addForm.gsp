@@ -6,7 +6,7 @@
       <div class="col-md-6">
         <label for="invoiceItemArticleSelect">Artikel (erforderlich) <a style="margin-left:5px" href="<g:createLink action="list" controller="article"/>" target="_blank">neuen Artikel anlegen</a> </label>
         <g:hiddenField id="invoiceItemArticleId" name="invoiceItemArticleId" value="1"/>
-        <g:typeaheadArticleSelect id="invoiceItemArticleSelect" class="form-control" required="" value="${Article.list()?.get(1)?.getName()}" name="invoiceItemArticleSelect" type="text" placeholder="Artikel auswählen"/>
+        <g:typeaheadArticleSelect id="invoiceItemArticleSelect" class="form-control" required="" value="" name="invoiceItemArticleSelect" type="text" placeholder="Artikel auswählen (durch tippen)"/>
         <script>
         $(function() {  
         	  $("#invoiceItemArticleSelect").on("typeahead:selected typeahead:autocompleted", function(e,datum) {
@@ -20,7 +20,7 @@
       </div>
       <div class="col-md-6">
         <label for="invoiceItemComment">Kommentar (optional)</label>
-        <g:textField id="invoiceItemComment" class="form-control" name="invoiceItemComment" value="${Article.list()?.get(1)?.getDescription()}" placeholder='Standardwert: "n/a"' />
+        <g:textField id="invoiceItemComment" class="form-control" name="invoiceItemComment" value="" placeholder='Standardwert: "n/a"' />
       </div>
     </div>
     <div class="row">
@@ -34,13 +34,13 @@
         <label for="invoiceItemArticleTaxRate">MwST (optional)</label>
         <g:set var="articleTaxRatePattern" value="[0-9]{1,2}([.][0-9]{1,2})?" scope="page" />
         <g:textField id="invoiceItemArticleTaxRate" pattern="${articleTaxRatePattern}" oninvalid="setCustomValidity('${articleTaxRatePattern}')"
-          onchange="try{setCustomValidity('')}catch(e){}" class="form-control" name="invoiceItemArticleTaxRate" value="${Article.list()?.get(1)?.getStandardTaxRate()}" placeholder='Standardwert: 19.00' />
+          onchange="try{setCustomValidity('')}catch(e){}" class="form-control" name="invoiceItemArticleTaxRate" value="" placeholder='Standardwert: 19.00' />
       </div>
       <div class="col-md-3">
         <label for="invoiceItemArticleGrossPrice">Bruttopreis (erforderlich)</label>
         <g:set var="articleGrossPricePattern" value="[-]?[0-9]{1,16}([.][0-9]{1,2})?" scope="page" />
         <g:textField id="invoiceItemArticleGrossPrice" pattern="${articleGrossPricePattern}" oninvalid="setCustomValidity('${articleGrossPricePattern}')"
-          onchange="try{setCustomValidity('')}catch(e){}" class="form-control" required="" name="invoiceItemArticleGrossPrice" value="${Article.list()?.get(1)?.getStandardGrossPrice()}" />
+          onchange="try{setCustomValidity('')}catch(e){}" class="form-control" required="" name="invoiceItemArticleGrossPrice" value="" />
       </div>
       <div class="col-md-2">
         <div class="row">

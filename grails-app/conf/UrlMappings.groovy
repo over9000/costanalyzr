@@ -13,6 +13,7 @@ class UrlMappings {
         "/"(view:"/index")
 		"/about"(view:"/about")
 		"/news"(view:"/news")
+		"/bugs"(view:"/bugs")
 		"/dataInputHome"(view:"/dataInputHome")
 		"/dataOutput"(view:"/dataOutput")
 		"/home"(view:"/home")

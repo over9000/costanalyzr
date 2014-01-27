@@ -28,6 +28,6 @@ class JQueryTableSorterTagLib {
 		}
 		htmlWriter << r.require(module: "jquery") << r.require(module: "jquery_table_sorter") <<
 		""" <table  """ << Utils.addPassedTagAttributes(attrs) << ">" << body() << """</table>""" << 
-		"""<script>\$(document).ready(function() {  \$( "#${id}" ).tablesorter({ sortList : [ [ 0, 0 ] ] }); });</script>"""
+		"""<script>\$(document).ready(function() {  \$( "#${id}" ).tablesorter(); });</script>"""
 	}
 }

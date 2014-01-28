@@ -15,8 +15,8 @@
 </head>
 <!-- NAVBAR ================================================== -->
 <body>
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 	<div id="navbar" class="navbar-wrapper">
 		<div style="width: 600px" class="container">
 			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -30,6 +30,7 @@
 							<li><a href="../news/news.html">News</a></li>
 							<li><a href="../download/download.html">Download</a></li>
 							<li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+							<li><a href="../faq/faq.html">FAQ</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a
@@ -50,7 +51,7 @@
 	<div style="min-height:800px" class="container">
 		<div style="height: 30px"></div>
 		<div class="page-header">
-			<h2>Home</h2>
+			<h1>Home</h1>
 		</div>
 		<div class="well">
 			<div class="row">
@@ -89,7 +90,8 @@
 						<li><span class="glyphicon glyphicon-wrench"></span> Barcode-Scanner für Artikelerkennung</li>
 						<li><span class="glyphicon glyphicon-wrench"></span> Scanner für Einkaufszettel</li>
 					</ul>
-					Sie habe eine Idee für ein Feature? <a href="https://github.com/over9000/costanalyzr/pulls" target="_blank">Hier</a> können Sie diese vorschlagen.
+					Sie habe eine Idee für ein Feature? <a href="https://github.com/over9000/costanalyzr/pulls" target="_blank">Hier</a> können Sie diese vorschlagen.<br>
+					Oder schreiben Sie eine e-Mail an: info@costanalyzr.de
 				</div>
 				<p class="pull-right">
 					<span class="glyphicon glyphicon-wrench"></span> : In Arbeit
@@ -100,7 +102,9 @@
 				</p>
 			</div>
 		</div>
-  	<div class="container">
+	</div>
+	<div style="height:15px"></div>
+	  	<div class="container">
 			<!-- FOOTER -->
 		<footer>
 			<p class="pull-right">
@@ -108,7 +112,6 @@
 			</p>
 			<p>&copy; 2014 Pascal Krause</p>
 		</footer>
-	</div>
 	</div>
 </body>
 </html>

@@ -15,8 +15,8 @@
 </head>
 <!-- NAVBAR ================================================== -->
 <body>
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 	<div id="navbar" class="navbar-wrapper">
 		<div style="width: 600px" class="container">
 			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -30,6 +30,7 @@
 							<li><a href="../news/news.html">News</a></li>
 							<li><a href="../download/download.html">Download</a></li>
 							<li class="active"><a href="tutorial.html">Tutorial</a></li>
+							<li><a href="../faq/faq.html">FAQ</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a
@@ -47,20 +48,83 @@
 		</div>
 	</div>
 	<!-- Ende Navbar -->
+	<div style="height:30px"></div>
 	<div style="min-height:800px" class="container">
-		<div style="height: 30px"></div>
 		<div class="page-header">
-			<h2>Tutorial</h2>
+			<h1>Tutorial</h1>
 		</div>
-		<div class="well">
-			<div class="row">
-				<div class="col-md-8">
-					<h2>Leider sind noch keine Tutorials verfügbar.</h2>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 style="padding-top: 50px; margin-top: -50px;" id="costAnalyzRBackup">CostAnalyzR-Backup erstellen</h2><hr>
+				Es empfiehlt sich in regelmäßigen Abständen ein Backup der CostAnalyzR-Datenbank zu machen, damit die eingetragenen Rechnungen bei einem Crash nicht erneut eingegeben werden müssen. </p>
+				Die Datenbank finden Sie in dem Ordner <i>Datenbank</i>. In diesem Ordner befindet sich unter anderem die Datei <i>CostAnalyzR.h2.db</i>, welche gesichert werden muss. </p>
+				Um ein Backup zu erstellen, kopieren Sie diese Datei in einen anderen Ordner, in dem Sie z.B. auch andere Backups aufbewahren. Es empfiehlt sich die Datei kopierte
+				umzubenennen, z.B. in <i>CostAnalyzR-aktuellesDatum.h2.db</i>. Um ein Backup wiederherzustellen, muss die Datenbank-Datei im Ordner <i>Datenbank</i> mit dem Backup überschrieben werden.
+				</p>
+				<div class="panel panel-danger">
+  					<div class="panel-heading">
+    					<h3 class="panel-title" >Achtung beim Überschrieben der Datenbank</h3>
+  					</div>
+  					<div class="panel-body">
+  						Beim Überschreiben der Datenbank-Datei werden alle eingetragenen Daten im CostAnalyzR unwiderruflich gelöscht. Überlegen Sie diesen Schritt sorgfältig und machen Sie vor dem Überschreiben eine Backup der aktuellen Datenbank.
+  					</div>
 				</div>
+				
+         	<h2 style="padding-top: 50px; margin-top: -50px;" >CostAnalyzR aus dem Quellcode Bauen</h2><hr>
+				<h4>Schritt 1: Grails installieren</h4>
+          		Laden Sie den Quellcode <a href="https://github.com/over9000/costanalyzr/archive/master.zip" target="_blank">herunter</a> und sehen Sie in der README-Datei nach, welche <a href="http://de.wikipedia.org/wiki/Grails" target="_blank">Grails</a>-Version verwendet werden sollte.
+				<h4>Schritt 2: Datenbank konfigurieren</h4>
+					Im Ordner <i>grails-app/conf/</i> befindet sich die Datei <i>DataSource.groovy</i>. In dieser Datei muss die Datenbank-Verbindung konfiguriert werden.<br>
+					<br>
+				<pre>
+//Beispiel für eine PostgreSQL-Datenbank
+production {
+	dataSource {
+		dbCreate = "update"
+		pooled = true
+		driverClassName = "org.postgresql.Driver"
+		dialect = "org.hibernate.dialect.PostgreSQLDialect"
+		username = "username"
+		password = "password"
+		url = "url = "jdbc:postgresql://127.0.0.1:5432/datenbankName""
+		configClass = 'info.pascalkrause.costanalyzr.PreventForeignKeyCreation'
+		}
+	}
+	
+//Beispiel für eine H2Embedded-Datenbank
+production {
+	dataSource {
+		dbCreate = "update"
+		pooled = true
+		username = "username"
+		password = "password"
+		url = "jdbc:h2:file:PfadZurDatei/DateiName;MVCC=TRUE;LOCK_TIMEOUT=10000"
+		configClass = 'info.pascalkrause.costanalyzr.PreventForeignKeyCreation'
+		properties {
+			maxActive = -1
+			minEvictableIdleTimeMillis=1800000
+			timeBetweenEvictionRunsMillis=1800000
+			numTestsPerEvictionRun=3
+			testOnBorrow=true
+			testWhileIdle=true
+			testOnReturn=true
+			validationQuery="SELECT 1"
+		}
+	}
+}
+				</pre>
+				<h4>Schritt 3: CostAnalyzR mit Passwort schützen</h4>
+				Im Ordner <i>grails-app/conf/info/pascalkrause/costanalyzr/</i> befindet sich die Datei <i>SimpleAuthFilters.groovy</i>. Soll der CostAnalyzR mit einem Passwort geschützt werden, kann dieses hier eingetragen werden. Ist dies nicht ihr Wunsch, kann die Datei gelöscht werden.
+				<h4>Schritt 3: CostAnalyzR direkt starten, oder WAR bauen</h4>
+				Jetzt sind alle notwendigen Konfigurationsschritte abgeschlossen. Öffnen Sie auf der Hauptebene des entpackten Quellcodeordners ein Terminal.</br>
+				Mit dem Befehl <code># grails run-app</code> kann der CostAnalyzR direkt gestartet werden.</br>
+				Mit dem Befehl <code># grails war Dateiname.war</code> kann ein WAR-Archiv erstellt werden, welches dann Deployed werden kann.</br>
+				Kommt es zu folgendem Fehler <i>Error WAR packaging error: /costanalyzr-master/target/work/resources/grails-app does not exist</i>, erstellen Sie einfach den benötigten Ordner.				
 			</div>
 		</div>
 	</div>
 	  	<div class="container">
+	  	<div style="height:15px"></div>
 			<!-- FOOTER -->
 		<footer>
 			<p class="pull-right">

@@ -15,7 +15,7 @@
   </head>
 <!-- NAVBAR ================================================== -->
   <body>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <div id="navbar" class="navbar-wrapper">
       <div style="width:600px" class="container">
@@ -27,9 +27,10 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="../home/home.html">Home</a></li>
-    <li><a href="../news/news.html">News</a></li>
-    <li class="active"><a href="download.html">Download</a></li>
-    <li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+    				<li><a href="../news/news.html">News</a></li>
+    				<li class="active"><a href="download.html">Download</a></li>
+    				<li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+    				<li><a href="../faq/faq.html">FAQ</a></li>
               </ul>
         <ul class="nav navbar-nav navbar-right">
                <li><a href="https://github.com/over9000/costanalyzr/tree/master" target="_blank">GitHub Repo</a></li>
@@ -43,24 +44,74 @@
       </div>
     </div>
 <!-- Ende Navbar -->
+  <div style="height:30px"></div>
   <div style="min-height:800px" class="container">
-    <div style="height:30px"></div>
     <div class="page-header">
-      <h2>Download</h2>
+      <h1>Download</h1>
     </div>
-    <div class="well">
+   
       <div class="row">
-        <div class="col-md-8">
-          <h2>Wichtige Hinweise</h2>
-            Im Moment gibt es noch keine vorkompilierte Version zum Download. Diese wird es voraussichtlich im Verlauf der der nächsten Woche geben.
-          <h2>Installationsanleitung</h2>
-          Die Installationsanleitung wird es mit der Veröffentlichung des Downloads geben.
-          <h2>Download</h2>
-          Hier wird es eine Liste mit verschiedenen Versionen des CostAnalyzRs geben.
+        <div class="col-md-12">
+          <div class="panel panel-warning">
+  				<div class="panel-heading">
+    				<h3 class="panel-title" >Wichtige Hinweise</h3>
+  				</div>
+  				<div class="panel-body">
+    				<ul>
+						<li>Sichern Sie regelmäßig Ihre Datenbank! Vor allem <b>vor</b> jedem Update. (<a href="../tutorial/tutorial.html#costAnalyzRBackup">Anleitung</a>)</li>
+						<li>Durch das Starten des CostAnnalyzRs wird ein Webserver, der im Netzwerk auf Port 8080 verfügbar ist, geöffnet. (<a href="../faq/faq.html#port8080offen" target="_blank">Was kann passieren?</a>)</li>
+					</ul>
+  				</div>
+			</div>
+          <h2>Installationsanleitung</h2><hr>
+          <h4>Vorbereitung: Java installieren</h4>
+          Bitte überprüfen Sie ob <a href="http://de.wikipedia.org/wiki/Java_%28Programmiersprache%29" target="_blank">Java</a> Version 6, oder höher auf ihrem Computer installiert ist. (<a href="http://www.java.com/de/download/" target="_blank">Download Java</a>)
+          <h4>Schritt 1: Download</h4>
+          Bitte Laden Sie <a href="CostAnalyzR-aktuell.zip" target="_blank">hier</a> die aktuellste Version des CostAnalyzRs herunter, oder wählen Sie eine Version in der Tabelle des Abschnitts "Download" aus.  	
+          <h4>Schritt 2: Entpacken</h4>
+          Bitte entpacken Sie das heruntergeladenen Archiv auf Ihrer Festplatte.
+          <h4>Schritt 3: Starten</h4>
+          <ul>
+          	<li>Linux: In der Hauptebene des entpackten Archivs befinden sich die beiden Shellskripte <i>start.sh</i> und <i>stop.sh</i>, mit denen sich der CostAnalyzR starten sowie stoppen lässt.</li>
+          	<li>Windows: In der Hauptebene des entpackten Archivs befinden sich die beiden BAT-Dateien <i>start.bat</i> und <i>stop.bat</i>, mit denen sich der CostAnalyzR starten sowie stoppen lässt.</li></li>
+          </ul>
+          Nach dem der CostAnalyzR gestartet wurde, dauert es einen kleinen Moment (10-20 Sekunden), bis der Webserver und CostAnalyzR vollständig geladen sind.<br>
+          <br>
+          Danach können Sie dann die Webseite http://127.0.0.1:8080 aufrufen und den CostAnalyzR benutzen.
+          <h4>Fehler: JRE_HOME wurde nicht gefunden</h4>
+          Tritt dieser Fehler auf, wurde die Java-Installation nicht gefunden. In diesem Fall muss der Pfad zur Java-Installation in der Konfigurationsdatei angeben werden.</p>
+          Im Ordner <i>tomcat/bin/</i> existieren die zwei Dateien <i>setenv.sh</i> (für Linux) und <i>setenv.bat</i> (für Windows). In diesen Dateien muss der Pfad zur Java-Installation eingetragen werden.
+          Sie können sich an den folgenden Beispielen orientieren, müssen diese Beispiele jedoch konkret an Ihr System anpassen.
+          <ul>
+          	<li>Linux: Fügen Sie die folgende Zeile in die Datei <i>setenv.sh</i> ein: <code>JRE_HOME="/usr/lib/jvm/java-1.7.0-openjdk-amd64"</code>(Passen Sie den Pfad ggf. an)</li>
+          	<li>Windows: Fügen Sie die folgende Zeile in die Datei <i>setenv.bat</i> ein: <code>set JRE_HOME=c:\Program Files (x86)\Java\jre7\"</code>(Passen Sie den Pfad ggf. an)</li>
+          </ul>
+          <h2>Download</h2><hr>
+          <table class="table table-hover">
+          	<thead>
+          		<tr>
+          			<th>Version</th>
+          			<th>Freigabedatum</th>
+          			<th>Download</th>
+          			<th>Bemerkung</th>
+          		</tr>
+          	</thead>
+          		<tr>
+          			<td>1.0</td>
+          			<td>2014-01-29</td>
+          			<td><a href="CostAnalyzRv1.tar.gz" target="_blank">CostAnalyzRv1.tar.gz</a><br>
+          				 <a href="CostAnalyzRv1.zip" target="_blank">CostAnalyzRv1.zip</a>
+          			</td>
+          			<td>Erste stabile Standalone-Version des CostAnalyzRs</td>
+          		</tr>
+          	<tbody>
+          	</tbody>
+			 </table>
         </div>
       </div>
+ 
   </div>
-  </div>
+  <div style="height:15px"></div>
   	<div class="container">
 			<!-- FOOTER -->
 		<footer>

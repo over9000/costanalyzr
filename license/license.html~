@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CostAnalyzR Homepage - Lizenz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- NAVBAR ================================================== -->
+<body>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+	<div id="navbar" class="navbar-wrapper">
+		<div style="width: 600px" class="container">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="../index.html">CostAnalyzR</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="../home/home.html">Home</a></li>
+							<li><a href="../news/news.html">News</a></li>
+							<li><a href="../download/download.html">Download</a></li>
+							<li><a href="../tutorial/tutorial.html">Tutorial</a></li>
+							<li><a href="../faq/faq.html">FAQ</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a
+								href="https://github.com/over9000/costanalyzr/tree/master"
+								target="_blank">GitHub Repo</a></li>
+							<li><a
+								href="https://github.com/over9000/costanalyzr/archive/master.zip">Download
+									Source</a></li>
+							<li class="active"><a href="license.html">Lizenz</a></li>
+							<li><a href="../about/about.html">Impressum</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ende Navbar -->
+	<div style="min-height:800px" class="container">
+		<div style="height: 30px"></div>
+		<div class="page-header">
+			<h1>Lizenz</h1>
+		</div>
+		<div class="well">
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Name:</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small>CostAnalyzR</small>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Version:</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small>1.0</small>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Freigabedatum:</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small>2014-01-29</small>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Autor:</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small>Pascal Krause</small>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Homepage:</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small><a href="http://over9000.github.io/costanalyzr/"
+							target="_blank">www.costanalyzr.de</a></small>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Lizenz</h4>
+				</div>
+				<div class="col-md-6">
+					<h4>
+						<small>CostAnalyzR License (Apache V2)</small>
+					</h4>
+				</div>
+			</div>
+			<div style="height: 15px"></div>
+			<div class="row">
+				<div class="col-md-6">
+					Copyright (c) 2014 Pascal Krause<br>
+					<a href="http://over9000.github.io/costanalyzr/" target="_blank">
+						www.costanalyzr.de
+					</a><br><br>Redistribution
+					and use in source and binary forms, with or without modification,
+					are permitted provided that the following conditions are met:<br>
+					<br> * Redistributions of source code must retain the above
+					copyright notice, this list of conditions and the following
+					disclaimer.<br> <br> * Redistributions in binary form
+					must reproduce the above copyright notice, this list of conditions
+					and the following disclaimer in the documentation and/or other
+					materials provided with the distribution.<br> <br>
+					Licensed under the Apache License, Version 2.0 (the "License");<br>
+					you may not use this file except in compliance with the License.<br>
+					You may obtain a copy of the License at<br> <br>
+					http://www.apache.org/licenses/LICENSE-2.0<br> <br>
+					Unless required by applicable law or agreed to in writing, software
+					distributed under the License is distributed on an "AS IS" BASIS,
+					WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+					implied. See the License for the specific language governing
+					permissions and limitations under the License.
+				</div>
+			</div>
+		</div>
+		<div class="page-header">
+			<h3>Lizenzübersicht der in diese Software verwendeten
+				Komponenten</h3>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#kohjeqcu9rsu27auu0uhp0ag3d"><span
+						class="glyphicon glyphicon-resize-vertical"></span>Diverse Grails
+						Plugins (Apache V2)</a>
+				</h4>
+			</div>
+			<div id="kohjeqcu9rsu27auu0uhp0ag3d" class="panel-collapse collapse">
+				<div class="panel-body">
+					Webflow: http://grails.org/plugins/webflow <br> Cache:
+					http://grails.org/plugins/Cache <br> Hibernate:
+					http://grails.org/plugins/Hibernate <br> Resources:
+					http://grails.org/plugins/resources <br> <br> Permission
+					is hereby granted, free of charge, to any person obtaining a copy
+					of this software and associated documentation files (the
+					"Software"), to deal in the Software without restriction, including
+					without limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#bjgmnsuocomatka28mjtg6abf3"><span
+						class="glyphicon glyphicon-resize-vertical"></span>PostgreSQL
+						License (PostgreSQL)</a>
+				</h4>
+			</div>
+			<div id="bjgmnsuocomatka28mjtg6abf3" class="panel-collapse collapse">
+				<div class="panel-body">
+					PostgreSQL is released under the PostgreSQL License, a liberal Open
+					Source license, similar to the BSD or MIT licenses.<br> <br>
+					PostgreSQL Database Management System (formerly known as Postgres,
+					then as Postgres95)<br> <br> Portions Copyright (c)
+					1996-2014, The PostgreSQL Global Development Group<br> <br>
+					Portions Copyright (c) 1994, The Regents of the University of
+					California<br> <br> Permission to use, copy, modify, and
+					distribute this software and its documentation for any purpose,
+					without fee, and without a written agreement is hereby granted,
+					provided that the above copyright notice and this paragraph and the
+					following two paragraphs appear in all copies.<br> <br>
+					IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY
+					PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+					DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS
+					SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF
+					CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.<br>
+					<br> THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY
+					WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+					OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE
+					SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE
+					UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE,
+					SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#pp63dvposn4gu4vh8c2i0slh51"><span
+						class="glyphicon glyphicon-resize-vertical"></span>jsTree License
+						(MIT)</a>
+				</h4>
+			</div>
+			<div id="pp63dvposn4gu4vh8c2i0slh51" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2013 Ivan Bozhanov<br> <br> Permission is
+					hereby granted, free of charge, to any person obtaining a copy of
+					this software and associated documentation files (the "Software"),
+					to deal in the Software without restriction, including without
+					limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#m4n02ams1icu20d4drn5tp66vc"><span
+						class="glyphicon glyphicon-resize-vertical"></span>Twitter-Bootstrap
+						License (MIT)</a>
+				</h4>
+			</div>
+			<div id="m4n02ams1icu20d4drn5tp66vc" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2011-2014 Twitter, Inc<br> <br> Permission
+					is hereby granted, free of charge, to any person obtaining a copy
+					of this software and associated documentation files (the
+					"Software"), to deal in the Software without restriction, including
+					without limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#4s34vscukld8fotq58r2cajaud"><span
+						class="glyphicon glyphicon-resize-vertical"></span>typeahead.js
+						License (MIT)</a>
+				</h4>
+			</div>
+			<div id="4s34vscukld8fotq58r2cajaud" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2013 Twitter, Inc<br> <br> Permission is
+					hereby granted, free of charge, to any person obtaining a copy of
+					this software and associated documentation files (the "Software"),
+					to deal in the Software without restriction, including without
+					limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#4s9fbmto4lnohb6501hvfmf900"><span
+						class="glyphicon glyphicon-resize-vertical"></span>jquery License
+						(MIT)</a>
+				</h4>
+			</div>
+			<div id="4s9fbmto4lnohb6501hvfmf900" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright 2014 jQuery Foundation and other contributors<br>
+					http://jquery.com/<br> <br> Permission is hereby granted,
+					free of charge, to any person obtaining a copy of this software and
+					associated documentation files (the "Software"), to deal in the
+					Software without restriction, including without limitation the
+					rights to use, copy, modify, merge, publish, distribute,
+					sublicense, and/or sell copies of the Software, and to permit
+					persons to whom the Software is furnished to do so, subject to the
+					following conditions:<br> <br> The above copyright notice
+					and this permission notice shall be included in all copies or
+					substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#36f6nkmtpvooponpln5ok58a5e"><span
+						class="glyphicon glyphicon-resize-vertical"></span>jqueryUI
+						License (MIT)</a>
+				</h4>
+			</div>
+			<div id="36f6nkmtpvooponpln5ok58a5e" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright 2013 jQuery Foundation and other contributors,<br>
+					http://jqueryui.com/<br> <br> This software consists of
+					voluntary contributions made by many individuals (AUTHORS.txt,
+					http://jqueryui.com/about) For exact contribution history, see the
+					revision history and logs, available at
+					http://jquery-ui.googlecode.com/svn/<br> <br> Permission
+					is hereby granted, free of charge, to any person obtaining a copy
+					of this software and associated documentation files (the
+					"Software"), to deal in the Software without restriction, including
+					without limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#n4bu6ece87hslj8bthhtppniu"><span
+						class="glyphicon glyphicon-resize-vertical"></span>jquery.tablesorter
+						License (MIT)</a>
+				</h4>
+			</div>
+			<div id="n4bu6ece87hslj8bthhtppniu" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2014 Christian Bach<br> <br> Permission is
+					hereby granted, free of charge, to any person obtaining a copy of
+					this software and associated documentation files (the "Software"),
+					to deal in the Software without restriction, including without
+					limitation the rights to use, copy, modify, merge, publish,
+					distribute, sublicense, and/or sell copies of the Software, and to
+					permit persons to whom the Software is furnished to do so, subject
+					to the following conditions:<br> <br> The above copyright
+					notice and this permission notice shall be included in all copies
+					or substantial portions of the Software.<br> <br> THE
+					SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+					OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+					MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+					NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+					BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+					ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+					CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#ip84oj1jkjrg8092r2q3q8fu4l"><span
+						class="glyphicon glyphicon-resize-vertical"></span>nvd3.js License
+						(Apache V2)</a>
+				</h4>
+			</div>
+			<div id="ip84oj1jkjrg8092r2q3q8fu4l" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2011, 2012 [Novus Partners, Inc.][novus]<br> <br>
+					Licensed under the Apache License, Version 2.0 (the "License");<br>
+					you may not use this file except in compliance with the License.<br>
+					You may obtain a copy of the License at<br> <br>
+					http://www.apache.org/licenses/LICENSE-2.0<br> <br>
+					Unless required by applicable law or agreed to in writing, software
+					distributed under the License is distributed on an "AS IS" BASIS,
+					WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+					implied. See the License for the specific language governing
+					permissions and limitations under the License.<br> <br>
+					[novus]: https://www.novus.com/
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a style="cursor: pointer; text-decoration: none;"
+						data-toggle="collapse" data-target="#7astjv4m317d14do1phtdj2thv"><span
+						class="glyphicon glyphicon-resize-vertical"></span>d3.js License</a>
+				</h4>
+			</div>
+			<div id="7astjv4m317d14do1phtdj2thv" class="panel-collapse collapse">
+				<div class="panel-body">
+					Copyright (c) 2012, Michael Bostock<br> All rights reserved.<br>
+					<br> Redistribution and use in source and binary forms, with
+					or without modification, are permitted provided that the following
+					conditions are met:<br> <br> * Redistributions of source
+					code must retain the above copyright notice, this list of
+					conditions and the following disclaimer.<br> <br> *
+					Redistributions in binary form must reproduce the above copyright
+					notice, this list of conditions and the following disclaimer in the
+					documentation and/or other materials provided with the
+					distribution.<br> <br> * The name Michael Bostock may not
+					be used to endorse or promote products derived from this software
+					without specific prior written permission.<br> <br> THIS
+					SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+					IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+					LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+					FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL MICHAEL
+					BOSTOCK BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+					EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+					PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+					PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+					OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+					(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+					USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+					DAMAGE.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="height:15px"></div>
+	  	<div class="container">
+			<!-- FOOTER -->
+		<footer>
+			<p class="pull-right">
+				<a href="#navbar">Zum Seitenanfang</a>
+			</p>
+			<p>&copy; 2014 Pascal Krause</p>
+		</footer>
+	</div>
+</body>
+</html>

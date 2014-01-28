@@ -16,10 +16,10 @@
 </head>
 <!-- NAVBAR ================================================== -->
 <body>
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	<div id="navbar" class="navbar-wrapper">
-		<div style="width: 600px" class="container">
+		<div class="container">
 			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
@@ -32,6 +32,7 @@
 							<li><a href="news/news.html">News</a></li>
 							<li><a href="download/download.html">Download</a></li>
 							<li><a href="tutorial/tutorial.html">Tutorial</a></li>
+							<li><a href="faq/faq.html">Tutorial</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a
@@ -279,9 +280,11 @@
 		<hr class="featurette-divider">
 
 		<!-- /END THE FEATURETTES -->
-
-
-		<!-- FOOTER -->
+	</div>
+	<!-- /.container -->
+	<div style="height:15px"></div>
+	<div class="container">
+			<!-- FOOTER -->
 		<footer>
 			<p class="pull-right">
 				<a href="#navbar">Zum Seitenanfang</a>
@@ -289,6 +292,5 @@
 			<p>&copy; 2014 Pascal Krause</p>
 		</footer>
 	</div>
-	<!-- /.container -->
 </body>
 </html>

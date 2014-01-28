@@ -34,7 +34,7 @@ class TypeaheadCategorySelectTagLib {
 					template: [
 		 				'<p class="category-name">{{name}}</p>',
 					].join(''), 
-					limit: 5,
+					limit: 10,
 					engine : Hogan
 				} ]);
 				//Needed for css

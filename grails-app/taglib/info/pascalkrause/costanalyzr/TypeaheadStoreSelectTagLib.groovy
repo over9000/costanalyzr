@@ -45,7 +45,7 @@ class TypeaheadStoreSelectTagLib {
 						'<p class="store-streetNameAndNumber">{{streetNameAndNumber}}</p>',
 		  				'<p class="store-cityZipCodeCountry">{{cityZipCodeCountry}}</p>'
 					].join(''),
-					limit: 5,
+					limit: 10,
 					engine : Hogan
 				} ]);
 				//Needed for css

@@ -29,7 +29,7 @@ class TypeaheadArticleSelectTagLib {
 		  				'<p class="article-category">Kategorie: {{category}}</p>',
 		  				'<p class="article-description">Beschreibung: {{description}}</p>'
 					].join(''),
-					limit: 5,
+					limit: 10,
 					engine : Hogan
 				} ]);
 				//Needed for css

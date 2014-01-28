@@ -2,8 +2,8 @@ package info.pascalkrause.costanalyzr
 
 class SimpleAuthFilters {
 	
-	def USERNAME = "costtest"
-	def PASSWORD = "test"
+	def USERNAME = ""
+	def PASSWORD = ""
 	
 static filters = {
         httpAuth(uri:"/**") {

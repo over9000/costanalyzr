@@ -52,6 +52,9 @@
               })
             </g:javascript>
           </div>
+          <div class="col-md-6">
+            <small>(Neue Filiale? "Neue Filiale anlegen" eintippen)</small>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-6">

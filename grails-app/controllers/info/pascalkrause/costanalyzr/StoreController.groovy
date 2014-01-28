@@ -188,7 +188,6 @@ class StoreController {
 		def stores = Store.list();
 		if(concernId ==~ /\d+/) {
 			def passedConcern = Concern.get(Integer.parseInt(concernId))
-			println passedConcern
 			def storeCriteria = Store.createCriteria();
 			stores = storeCriteria.list {
 								 eq("concern", passedConcern)

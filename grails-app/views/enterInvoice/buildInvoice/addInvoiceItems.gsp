@@ -46,7 +46,7 @@
 	              <td style="width:100px"><g:checkBox  name="myCheckbox" disabled="disabled" value="${invoiceItemInstance?.getReduced()}" /></td>
 	              <td>${invoiceItemInstance?.getGrossPrice()}</td>
 	              <td>
-	                <g:submitButton name="deleteItem" class="btn btn-info" value="Löschen" onclick="jQuery('#invoiceItemToDeleteId').val(${invoiceItemInstance?.getId()})" />
+	                <g:submitButton name="deleteItem" class="btn btn-info" value="Löschen" onclick="jQuery('#invoiceItemToDeleteId').val(${invoiceItemInstance?.getId()})" formnovalidate=""/>
 	              </td>
 	            </tr>
 	          </g:each>

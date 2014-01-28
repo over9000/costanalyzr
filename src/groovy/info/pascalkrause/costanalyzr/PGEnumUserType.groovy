@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types
 import java.util.Properties;
+import javax.sql.DataSource
 
 import org.hibernate.HibernateException;
 import org.hibernate.usertype.UserType;
@@ -71,10 +72,15 @@ public class PGEnumUserType implements UserType, ParameterizedType {
     public void nullSafeSet(PreparedStatement st, Object value, int index)
             throws HibernateException, SQLException {
         // Hier wird extra ((Enum)value).name() verwendet, da sonnst toString() verwendet wird und diese Methode eventuell überschrieben ist
-		if (value) { st.setObject(index, ((Enum)value).name(), 1111); }
-		else { st.setNull(index, Types.VARCHAR) }
+		if(ContextUtil.getDataSource().getConnection().getProperties().get('targetConnection').toString().contains("postgre")) {				
+			if (value) { st.setObject(index, ((Enum)value).name(), 1111); }
+			else { st.setNull(index, Types.VARCHAR) }
+		} else {
+			if (value) { st.setObject(index, ((Enum)value).name()); }
+			else { st.setNull(index, Types.VARCHAR) }
+		}
     }
-			
+	
 	@Override
     public Object replace(Object original, Object target, Object owner)
             throws HibernateException {

@@ -304,7 +304,6 @@ class EnterInvoiceController {
 						flow.invoiceItems = invoiceItemsCriteria.list { 
 								 eq("invoice", invoice)
 						}
-						println flow.invoiceItems
 						valid()
 					}
 				}

@@ -46,10 +46,10 @@
 			          invoiceItemComment : $('#invoiceItemCommentEdit').val(),
 			          invoiceItemArticleGrossPrice : $('#invoiceItemArticleGrossPriceEdit').val(),
 			          invoiceItemReduced : $('#invoiceItemReducedEdit').is(':checked')
-			        }, url:'/\${Utils.getProjectName()}/invoiceItem/saveInvoiceItem',success:function(data,textStatus){jQuery('#invoiceItemModalBody').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false">
+			        }, url:'${Utils.getContextPath()}/invoiceItem/saveInvoiceItem',success:function(data,textStatus){jQuery('#invoiceItemModalBody').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false">
             <input class="btn btn-warning" type="button" value="Löschen" onclick="jQuery.ajax({type:'POST',data:
               { invoiceItemId: ${invoiceItemInstance?.getId()}
-              }, url:'/${Utils.getProjectName()}/invoiceItem/deleteInvoiceItem',success:function(data,textStatus){jQuery('#invoiceItemModalBody').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false">
+              }, url:'${Utils.getContextPath()}/invoiceItem/deleteInvoiceItem',success:function(data,textStatus){jQuery('#invoiceItemModalBody').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false">
           </td>
           <g:javascript>window.location.href = "#listId${invoiceItemToEdit}";</g:javascript>
 			  </g:if>

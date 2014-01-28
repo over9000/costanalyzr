@@ -73,7 +73,7 @@
   					</div>
 				</div>
 				
-         	<h2 style="padding-top: 50px; margin-top: -50px;" >CostAnalyzR aus dem Quellcode Bauen</h2><hr>
+         	<h2 style="padding-top: 50px; margin-top: -50px;" >CostAnalyzR aus dem Quellcode bauen</h2><hr>
 				<h4>Schritt 1: Grails installieren</h4>
           		Laden Sie den Quellcode <a href="https://github.com/over9000/costanalyzr/archive/master.zip" target="_blank">herunter</a> und sehen Sie in der README-Datei nach, welche <a href="http://de.wikipedia.org/wiki/Grails" target="_blank">Grails</a>-Version verwendet werden sollte.
 				<h4>Schritt 2: Datenbank konfigurieren</h4>

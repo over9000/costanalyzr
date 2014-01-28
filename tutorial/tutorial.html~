@@ -56,17 +56,20 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2 style="padding-top: 50px; margin-top: -50px;" id="costAnalyzRBackup">CostAnalyzR-Backup erstellen</h2><hr>
-				Es empfiehlt sich in regelmäßigen Abständen ein Backup der CostAnalyzR-Datenbank zu machen, damit die eingetragenen Rechnungen bei einem Crash nicht erneut eingegeben werden müssen. </p>
-				Die Datenbank finden Sie in dem Ordner <i>Datenbank</i>. In diesem Ordner befindet sich unter anderem die Datei <i>CostAnalyzR.h2.db</i>, welche gesichert werden muss. </p>
-				Um ein Backup zu erstellen, kopieren Sie diese Datei in einen anderen Ordner, in dem Sie z.B. auch andere Backups aufbewahren. Es empfiehlt sich die Datei kopierte
-				umzubenennen, z.B. in <i>CostAnalyzR-aktuellesDatum.h2.db</i>. Um ein Backup wiederherzustellen, muss die Datenbank-Datei im Ordner <i>Datenbank</i> mit dem Backup überschrieben werden.
+				Es empfiehlt sich in regelmäßigen Abständen ein Backup der CostAnalyzR-Datenbank zu erstellen, damit bereits
+				gespeicherte Rechnungen bei einem Crash nicht erneut eingegeben werden müssen. </p>
+				Die zu sichernde Datenbank-Datei befindet sich in dem Ordner <i>Datenbank</i> und trägt den Namen <i>CostAnalyzR.h2.db</i>.</p>
+				Um ein Backup zu erstellen, muss diese Datei in einen anderen Ordner kopiert werden, z.B. ein Ordner in dem auch andere Backups
+				aufbewahrt werden. Es empfiehlt sich die kopierte Datei umzubenennen, z.B. in <i>CostAnalyzR-aktuellesDatum.h2.db</i>.</p>
+				Um ein Backup wiederherzustellen, muss die Datenbank-Datei im Ordner <i>Datenbank</i> mit dem Backup überschrieben werden.
 				</p>
 				<div class="panel panel-danger">
   					<div class="panel-heading">
-    					<h3 class="panel-title" >Achtung beim Überschrieben der Datenbank</h3>
+    					<h3 class="panel-title" >Vorsicht beim Überschrieben der Datenbank</h3>
   					</div>
   					<div class="panel-body">
-  						Beim Überschreiben der Datenbank-Datei werden alle eingetragenen Daten im CostAnalyzR unwiderruflich gelöscht. Überlegen Sie diesen Schritt sorgfältig und machen Sie vor dem Überschreiben eine Backup der aktuellen Datenbank.
+  						Beim Überschreiben der Datenbank-Datei werden alle eingetragenen Daten im CostAnalyzR unwiderruflich gelöscht.
+  						Überlegen Sie diesen Schritt sorgfältig und erstellen Sie vor dem Überschreiben eine Backup der aktuellen Datenbank.
   					</div>
 				</div>
 				
@@ -114,12 +117,13 @@ production {
 }
 				</pre>
 				<h4>Schritt 3: CostAnalyzR mit Passwort schützen</h4>
-				Im Ordner <i>grails-app/conf/info/pascalkrause/costanalyzr/</i> befindet sich die Datei <i>SimpleAuthFilters.groovy</i>. Soll der CostAnalyzR mit einem Passwort geschützt werden, kann dieses hier eingetragen werden. Ist dies nicht ihr Wunsch, kann die Datei gelöscht werden.
+				Im Ordner <i>grails-app/conf/info/pascalkrause/costanalyzr/</i> befindet sich die Datei <i>SimpleAuthFilters.groovy</i>.
+				Soll der CostAnalyzR mit einem Passwort geschützt werden, kann dieses hier eingetragen werden. Ist dies nicht ihr Wunsch, muss die Datei gelöscht werden.
 				<h4>Schritt 3: CostAnalyzR direkt starten, oder WAR bauen</h4>
 				Jetzt sind alle notwendigen Konfigurationsschritte abgeschlossen. Öffnen Sie auf der Hauptebene des entpackten Quellcodeordners ein Terminal.</br>
 				Mit dem Befehl <code># grails run-app</code> kann der CostAnalyzR direkt gestartet werden.</br>
 				Mit dem Befehl <code># grails war Dateiname.war</code> kann ein WAR-Archiv erstellt werden, welches dann Deployed werden kann.</br>
-				Kommt es zu folgendem Fehler <i>Error WAR packaging error: /costanalyzr-master/target/work/resources/grails-app does not exist</i>, erstellen Sie einfach den benötigten Ordner.				
+				Kommt es zu folgendem Fehler: "<i>Error WAR packaging error: /costanalyzr-master/target/work/resources/grails-app does not exist</i>", erstellen Sie einfach den nicht vorhandenen Ordner.				
 			</div>
 		</div>
 	</div>

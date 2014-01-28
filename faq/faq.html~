@@ -62,10 +62,10 @@
          		falls Sie z.B. mit einem Tabelet auf den CostAnalyzR zugreifen möchten.</p>
          		Im Normalfall ist dies unbedenklich, da Sie meist durch einen Router mit dem Internet verbunden sind, welcher ein Schutzschild 
          		zwischen Ihrem Heimnetzwerk und dem Internet darstellt. Sollte im Router jedoch der Port 8080 geöffnet sein und dieser
-         		zusätzlich noch auf Ihren PC verweisen, kann auch vom Internet auf den CostAnalyzR zugegriffen werden.</p>
+         		zusätzlich noch auf Ihren PC weiterleitet, kann auch vom Internet auf den CostAnalyzR zugegriffen werden.</p>
          		Weitere Informationen, wie Sie sich schützen können finden Sie <a href="http://tomcat.apache.org/tomcat-7.0-doc/security-howto.html" target="_blank">hier</a>.
          		Falls Sie den Webserver für das lokale Netzwerk sperren möchten, und <b>nur</b> von Ihrem PC Zugriff auf den CostAnalyzR haben möchten, finden Sie
-         		<a href="http://stackoverflow.com/questions/18617/how-do-you-configure-tomcat-to-bind-to-a-single-ip-address-localhost-instead-o" target="_blank">hier</a> einen Beispiel.
+         		<a href="http://stackoverflow.com/questions/18617/how-do-you-configure-tomcat-to-bind-to-a-single-ip-address-localhost-instead-o" target="_blank">hier</a> ein Beispiel.
 			</div>
 		</div>
 	</div>

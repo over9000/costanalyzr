@@ -11,7 +11,7 @@ import java.io.Serializable;
 class Article implements Serializable {
 
 	static mapping = {
-		cache usage:'read-only'
+		cache usage:'read-write'
 		table 'public.article'
 		version false
 		id generator:'increment', column:'id'

@@ -14,7 +14,7 @@ class Category implements Serializable {
 	static hasMany = [childCategorys: Category]
 	
 	static mapping = {
-		cache usage:'read-only'
+		cache usage:'read-write'
 		table 'public.category'
 		version false
         id generator:'increment', column:'id'

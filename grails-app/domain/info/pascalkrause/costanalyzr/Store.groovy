@@ -13,6 +13,7 @@ class Store implements Serializable {
 	static belongsTo = [concern: Concern]
 	
    	static mapping = {
+		cache usage:'read-only'
 		table 'public.store'
 		version false
         id generator:'increment', column:'id'

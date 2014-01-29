@@ -2,7 +2,6 @@
 	<div class="header">
 		<ul class="nav nav-tabs pull-right">
 			<li <g:if test="${active == 'home'}">class="active"</g:if> ><g:link url="${resource(dir:'/', file:'home')}">Home</g:link></li>
-			<!-- Der Homebutten führt dort hin wohin auch der blick auf Einkaufszettel oben links führt. Zu einer Seite die alles erklärt Bei auswahl -->
 			<li <g:if test="${active == 'dataInput'}">class="active"</g:if> ><g:link url="${resource(dir:'/', file:'dataInputHome')}">Daten eintragen</g:link></li>
 			<li <g:if test="${active == 'dataOutput'}">class="active"</g:if> ><g:link controller="analyze" action="index">Daten auswerten</g:link></li>
 		<!-- 	<li <g:if test="${active == 'news'}">class="active"</g:if> ><g:link url="${resource(dir:'/', file:'news')}">News</g:link></li> -->

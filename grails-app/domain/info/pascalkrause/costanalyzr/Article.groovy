@@ -11,18 +11,19 @@ import java.io.Serializable;
 class Article implements Serializable {
 
 	static mapping = {
-				table 'public.article'
-				version false
-				id generator:'increment', column:'id'
-				name column: 'name'
-				category column:'category_id'
-				// Die Spalte description erhält im Datenbankschema den Standardwert n/a
-				// Wird hier im GORM der Wert "defaultValue : 'n/a' eingetragen gibt es einen Fehler
-				// Wird ein anderes Datenbankschema verwendet kann dies zu unerwarteten Problemen führen
-				description column:'description'
-				standardTaxRate column:'standard_tax_rate', defaultValue: "0.00"
-				standardGrossPrice column: 'standard_gross_price', defaultValue: "0.00"
-		   }
+		cache usage:'read-only'
+		table 'public.article'
+		version false
+		id generator:'increment', column:'id'
+		name column: 'name'
+		category column:'category_id'
+		// Die Spalte description erhält im Datenbankschema den Standardwert n/a
+		// Wird hier im GORM der Wert "defaultValue : 'n/a' eingetragen gibt es einen Fehler
+		// Wird ein anderes Datenbankschema verwendet kann dies zu unerwarteten Problemen führen
+		description column:'description'
+		standardTaxRate column:'standard_tax_rate', defaultValue: "0.00"
+		standardGrossPrice column: 'standard_gross_price', defaultValue: "0.00"
+	}
 	
 	Integer id
 	String name

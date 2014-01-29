@@ -13,6 +13,7 @@ class InvoiceItem implements Serializable {
 	static belongsTo = [invoice: Invoice]
 
    	static mapping = {
+		cache usage:'read-only'
 		table 'public.invoice_item'
 		version false
         id generator:'increment', column:'id'

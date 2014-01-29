@@ -13,6 +13,7 @@ class Concern implements Serializable {
 	static hasMany = [concernStores: Store]
 	
 	static mapping = {
+		cache usage:'read-only'
 		table 'public.concern'
 		version false
         id generator:'increment', column:'id'

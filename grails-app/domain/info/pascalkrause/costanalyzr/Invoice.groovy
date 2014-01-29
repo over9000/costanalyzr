@@ -14,6 +14,7 @@ class Invoice implements Serializable {
 	static hasMany = [invoiceItems: InvoiceItem]
 	
 	static mapping = {
+		cache usage:'read-only'
 		table 'public.invoice'
 		version false
 		id generator:'increment', column:'id'

@@ -14,6 +14,4 @@ public enum PaymentMethods {
 	 
 	 String toString() { val }
 	 String getKey() { name() }
-	 
-	 
 }

@@ -7,7 +7,7 @@ package info.pascalkrause.costanalyzr
  *
  */
 public enum PaymentMethods {
-	CASH("Bar"), CASH_CARD("EC-Karte")
+	CASH("Bar"), CASH_CARD("EC-Karte"), DEBIT("Lastschrift")
 	
 	 final String val
      PaymentMethods(String name) { this.val = name }

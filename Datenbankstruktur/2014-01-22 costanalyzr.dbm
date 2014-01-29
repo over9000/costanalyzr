@@ -20,8 +20,8 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <usertype name="payment_method" configuration="enumeration">
 	<schema name="public"/>
 	<role name="einkaufszettel"/>
-	<comment><![CDATA[CASH, CASH_CARD]]></comment>
-	<enumeration values="CASH,CASH_CARD"/>
+	<comment><![CDATA[CASH, CASH_CARD, DEBIT]]></comment>
+	<enumeration values="CASH,CASH_CARD,DEBIT"/>
 </usertype>
 
 <usertype name="available_countrys" configuration="enumeration">
@@ -235,7 +235,7 @@ DE, FR, AT, CH, others]]></comment>
 <textbox name="Payment_methods" font-size="9">
 	<position x="388" y="456"/>
 	<comment><![CDATA[Payment_methods:
-CASH or CASH_CARD]]></comment>
+CASH, CASH_CARD or DEBIT]]></comment>
 </textbox>
 
 <constraint name="store_fk_concern_id" type="fk-constr"	 comparison-type="MATCH FULL"

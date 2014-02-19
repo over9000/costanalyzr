@@ -6,8 +6,8 @@ A grails application to survey expenses
 ###Einstellung der Datenbank
 In der Datei grails-app/conf/DataSource.groovy muss noch die entsprechende Datenbankverbindung eingetragen werden.
 
-Bis jetzt wurde CostAnalyzR nur mit folgenden Datenbank getestet:
-Postgre
+Bis jetzt wurde CostAnalyzR nur mit folgenden Datenbank getestet:   
+Postgre,   
 H2
 
 ###CostAnalyzR aus dem Quellcode bauen
